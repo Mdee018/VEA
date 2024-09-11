@@ -1,5 +1,5 @@
 {
-"name":"Trex-Md",
+"name":"𝐕𝐄𝐀 𝐁𝐎𝐓",
   "description":"𝑻𝒉𝒆 𝑭𝒂𝒔𝒕𝒆𝒔𝒕 𝑩𝒐𝒕",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/b8b94202ee501c05bfef2.jpg",
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"TREX-MD",
+      "value":"𝐕𝐄𝐀 𝐁𝐎𝐓",
       "required":false
 
     } ,
@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "BERA"
+    "value": "𝐌𝐃𝐄𝐄"
   },
     "NUMERO_OWNER":
   {
