@@ -9,11 +9,11 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Bruce",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "254743982206",              
+    OWNER_NAME: process.env.OWNER_NAME || "Mdee",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "254742221885",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
-    BOT : process.env.BOT_NAME || '𝐁𝐔𝐆𝐀𝐓𝐓𝐈',
+    BOT : process.env.BOT_NAME || 'VEA',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/0b5cf2584cd4943ed008f.jpg,https://telegra.ph/file/3da80937e305068c14474.jpg,https://telegra.ph/file/1e693dd2eb5ec67c69750.jpg,https://telegra.ph/file/b8b94202ee501c05bfef2.jpg',
     MODE: process.env.PUBLIC_MODE || "no",
                   
