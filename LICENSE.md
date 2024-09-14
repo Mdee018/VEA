@@ -1,4 +1,1 @@
-antidelit
-automatic status view
-gpt
-music downloader
+licensed by bera tech
