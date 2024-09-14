@@ -22,13 +22,13 @@
  
 </p>
 <p align="center">
-<a href="https://github.com/Mdee018"><img title="Author" src="https://img.shields.io/badge/Mdee018-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/254743982206"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Mdee018"><img title="Author" src="https://img.shields.io/badge/Mdee018-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/254742221885"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <a href="https://github.com/Mdee018?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Mdee018?label=Followers&style=social"></a>
-<a href="https://github.com/berabotsmd/TREX-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Mdee018/VEA?&style=social"></a>
-<a href="https://github.com/Mdee018/VEA/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Mdee018/VEA?style=social"></a>
+<a href="https://github.com/mdee018/VEA /stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Mdee018/VEA?&style=social"></a>
+<a href="https://github.com/Mdee018/VEA /network/members"><img title="Fork" src="https://img.shields.io/github/forks/Mdee018/VEA?style=social"></a>
 <a href="https://github.com/Mdee018/VEA/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Mdee018/VEA?label=Watching&style=social"></a>
 </p>></a>                     
 
@@ -43,7 +43,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 </a></p>
 - <br>
-<a href='https://baraka-scanner.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get-Session_ID-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
+<a href='https://vea-scanner.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get-Session_ID-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
 
 - 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -70,7 +70,7 @@
 HOW TO REACH THE OWNER? 
  
    
-   <a href="https://wa.me/254743982206">
+   <a href="https://wa.me/254742221885">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>&nbsp;&nbsp;
    <a
@@ -104,7 +104,7 @@ HOW TO REACH THE OWNER?
     <td>𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑪𝒉𝒂𝒏𝒏𝒆𝒍</td>
   </tr>
   <tr>
-    <td><a href="https://wa.me/254740007567?"><img src="https://i.ibb.co/4jBhn13/Socialthumb.jpg" width="180"</td>
+    <td><a href="https://wa.me/254742221885?"><img src="https://i.ibb.co/4jBhn13/Socialthumb.jpg" width="180"</td>
     <td><a href="https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q"><img src="https://i.ibb.co/4jBhn13/Socialthumb.jpg" width="180"</td>
   </tr>
 </table>
