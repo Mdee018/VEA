@@ -1,9 +1,9 @@
 {
-"name":"𝐕𝐄𝐀 𝐁𝐎𝐓",
+"name":"𝐕𝐄𝐀 MD",
   "description":"𝑻𝒉𝒆 𝑭𝒂𝒔𝒕𝒆𝒔𝒕 𝑩𝒐𝒕",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/b8b94202ee501c05bfef2.jpg",
-  "repository":"https://github.com/berabotsmd/TREX-MD",
+  "repository":"https://github.com/mdee018/VEA-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝐕𝐄𝐀 𝐁𝐎𝐓",
+      "value":"𝐕𝐄𝐀 MD",
       "required":false
 
     } ,
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
+      "value":"yes",
       "required": true 
     }
 	,
@@ -81,7 +81,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254743982206"
+    "value": "254742221885"
   },
     "WARN_COUNT":
   {
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"2",
+    "value":"1",
     "required": true 
   },
   "ANTI_DELETE_MESSAGE" : {
